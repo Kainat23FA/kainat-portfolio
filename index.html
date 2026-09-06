@@ -6,6 +6,7 @@
     <title>Kainat Faisal | Portfolio</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
 
     <header>
@@ -266,7 +267,7 @@
         Have a project, opportunity, or question? Feel free to get in touch.
     </p>
 
-    <form onsubmit="return false;" >
+    <form id="contact-form" novalidate >
         <label for="name">Name</label>
         <input
             type="text"
@@ -292,6 +293,8 @@
         ></textarea>
 
         <button type="submit">Send Message</button>
+        <p id="form-message"></p>
+
     </form>
 
 
@@ -321,6 +324,13 @@
     <p>&copy; 2026 Kainat Faisal. All rights reserved.</p>
 
 </footer>
+
+<button id="theme-toggle" aria-label="Toggle dark mode">🌙</button>
+
+<button id="scroll-top" aria-label="Scroll to top">↑</button>
+
+<script src="js/script.js
+"></script>
     
 </body>
 </html>

@@ -24,13 +24,26 @@ body {
     background-color: #ffffff;
 }
 
+/* Sticky Navbar */
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+
 /* Navbar */
 
 nav {
+
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 60px;
+
+    background-color: #ffffff;
+
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
 }
 
@@ -503,4 +516,63 @@ input:focus-visible,
 textarea:focus-visible {
     outline: 2px solid var(--primary-color);
     outline-offset: 3px;
+}
+
+
+/* Form Message */
+
+#form-message {
+    margin-top: 15px;
+    font-weight: 600;
+}
+
+
+/* Scroll to Top Button */
+
+#scroll-top {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+
+    width: 45px;
+    height: 45px;
+
+    border: none;
+    border-radius: 50%;
+
+    background-color: var(--primary-color);
+    color: #ffffff;
+
+    font-size: 1.4rem;
+    cursor: pointer;
+
+    display: none;
+
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+#scroll-top:hover {
+    background-color: var(--primary-hover);
+    transform: translateY(-3px);
+}
+
+
+
+
+#theme-toggle {
+    position: fixed;
+    bottom: 80px;
+    right: 25px;
+
+    width: 45px;
+    height: 45px;
+
+    border: none;
+    border-radius: 50%;
+
+    background-color: var(--primary-color);
+    color: #ffffff;
+
+    font-size: 1.3rem;
+    cursor: pointer;
 }
