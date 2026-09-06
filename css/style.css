@@ -557,6 +557,7 @@ textarea:focus-visible {
 }
 
 
+/* light dark theme */
 
 
 #theme-toggle {
@@ -573,6 +574,54 @@ textarea:focus-visible {
     background-color: var(--primary-color);
     color: #ffffff;
 
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+#theme-toggle:hover {
+    background-color: var(--primary-hover);
+    transform: translateY(-3px);
+}
+
+
+
+
+body.dark-mode {
+    background-color: #111827;
+    color: #F9FAFB;
+}
+
+body.dark-mode nav {
+    background-color: #111827;
+}
+
+body.dark-mode nav ul a {
+    color: #F9FAFB;
+}
+
+body.dark-mode .skill-card,
+body.dark-mode #projects article {
+    background-color: #1F2937;
+    border-color: #374151;
+}
+
+body.dark-mode #projects article img {
+    background-color: #374151;
+}
+
+body.dark-mode #contact input,
+body.dark-mode #contact textarea {
+    background-color: #1F2937;
+    color: #F9FAFB;
+    border-color: #374151;
+}
+
+body.dark-mode footer {
+    border-color: #374151;
 }
