@@ -384,15 +384,28 @@ nav ul a:hover {
     font-weight: 600;
 }
 
-
 #contact ul a:hover {
     color: var(--primary-hover);
+}
+
+/* Social Icons */
+
+#contact ul a i {
+    margin-right: 6px;
+    font-size: 18px;
+}
+
+#contact ul a:hover i {
+    transform: scale(1.1);
 }
 
 #contact form + p {
     margin-top: 35px;
     margin-bottom: 0;
 }
+
+
+
 
 
 /* Footer */
