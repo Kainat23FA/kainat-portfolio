@@ -84,15 +84,15 @@ No additional installation or dependencies are required.
 
 ### Mobile — 360px
 
-![Portfolio Mobile](screenshots/portfolio-mobile-360.png)
+![Portfolio Mobile](Screenshots/portfolio-mobile-360.png)
 
 ### Tablet — 768px
 
-![Portfolio Tablet](screenshots/portfolio-tablet-768.png)
+![Portfolio Tablet](Screenshots/portfolio-tablet-768.png)
 
 ### Desktop — 1440px
 
-![Portfolio Desktop](screenshots/portfolio-desktop-1440.png)
+![Portfolio Desktop](Screenshots/portfolio-desktop-1440.png)
 
 ## Author
 
