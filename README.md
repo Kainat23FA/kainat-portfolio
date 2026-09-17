@@ -59,7 +59,12 @@ Kainat-Portfolio/
 ├── images/
 ├── resume/
 │   └── Kainat-Faisal-Resume.pdf
+├── screenshots/
+│   ├── portfolio-mobile-360.png
+│   ├── portfolio-tablet-768.png
+│   └── portfolio-desktop-1440.png
 └── README.md
+```
 
 ## How to Run Locally
 
