@@ -82,7 +82,17 @@ No additional installation or dependencies are required.
 
 ## Screenshots
 
-Screenshots of the portfolio will be added here to demonstrate the website on different screen sizes.
+### Mobile — 360px
+
+![Portfolio Mobile](screenshots/portfolio-mobile-360.png)
+
+### Tablet — 768px
+
+![Portfolio Tablet](screenshots/portfolio-tablet-768.png)
+
+### Desktop — 1440px
+
+![Portfolio Desktop](screenshots/portfolio-desktop-1440.png)
 
 ## Author
 
